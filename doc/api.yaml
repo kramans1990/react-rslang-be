@@ -190,6 +190,8 @@ paths:
                   $ref: "#/components/schemas/User"
         422:
           description: Incorrect e-mail or password
+        417:
+          description: User with this email already exists
   /users/{id}:
     parameters:
       - name: id
